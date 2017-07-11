@@ -1,6 +1,8 @@
 from sys import argv
 
 script, filename = argv
+with open(filename) as f:
+    output = f.read()
 
 print(f"We're going to erase {filename}.")
 print("If you don't want to erase the file, hit CTRL-C (^C).")
@@ -31,7 +33,8 @@ target.write(line3)
 #print the filename of the input
 print(f"Here's your file: \n***{filename}***")
 #print out the text of the file
-print(open(filename).read())
+txt = open(filename)
+print(txt.read())
 
 print("And finally, we close it.")
 target.close()
