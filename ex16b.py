@@ -28,16 +28,10 @@ target.write(line2)
 target.write("\n")
 target.write(line3)
 
-#give the argv command some inputs
-script, filename = argv
-
-#use the open command on our filename
-txt = open(filename)
-
 #print the filename of the input
 print(f"Here's your file: \n***{filename}***")
 #print out the text of the file
-print(txt.read())
+print(open(filename).read())
 
 print("And finally, we close it.")
 target.close()
