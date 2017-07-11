@@ -11,7 +11,7 @@ print(i + 5)
 i = i + 1
 print(i)
 
-# decimal (.) precision of 3 for float '0.333'
+# decimal (.) precision of x for float '0.333'
 print('{0:.9f}'.format(1.0/3))
 # fill with underscores (_) with the text centered
 # (^) to 11 width '___hello___'
