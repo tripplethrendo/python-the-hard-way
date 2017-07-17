@@ -17,4 +17,4 @@ print('{0:.9f}'.format(1.0/3))
 # (^) to 11 width '___hello___'
 print('{0:_^11}'.format('hello'))
 # keyword-based 'Swaroop wrote A Byte of Python'
-print('{name} wrote {book}'.format(name='Swaroop', book='A Byte of Python'))
+print('{name} wrote {book}'.format(name='tripplethrendo', book='learn how to code, dummy'))
